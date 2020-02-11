@@ -23,3 +23,7 @@ yarn add react-native-linear-gradient
 yarn add styled-components
 yarn add prop-types
 yarn add react-native-vector-icons
+
+yarn add react-native-eject
+react-native eject
+react-native link

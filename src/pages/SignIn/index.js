@@ -11,7 +11,7 @@ import {
   SignUpLinkText,
 } from './styles';
 
-export default function Login() {
+export default function SignIn({ navigation }) {
   return (
     <Background>
       <Container>
@@ -35,7 +35,11 @@ export default function Login() {
           <SubmitButton onPress={() => {}}>Acessar</SubmitButton>
         </Form>
 
-        <SignUpLink onPress={() => {}}>
+        <SignUpLink
+          onPress={() => {
+            navigation.navigate('SignUp');
+          }}
+        >
           <SignUpLinkText>Criar conta gratuita</SignUpLinkText>
         </SignUpLink>
       </Container>
