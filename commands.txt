@@ -13,6 +13,7 @@ yarn eslint --init
 cd C:\Android\Sdk\platform-tools
 adb devices
 adb reverse tcp:8081 tcp:8081
+adb reverse tcp:9090 tcp:9090
 ==================================================
 yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
 
@@ -27,3 +28,6 @@ yarn add react-native-vector-icons
 yarn add react-native-eject
 react-native eject
 react-native link
+
+yarn add reactotron-react-native reactotron-redux reactotron-redux-saga redux redux-saga react-redux
+// uninstall from device and reinstall with react-native run-android
