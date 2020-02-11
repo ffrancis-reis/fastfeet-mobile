@@ -1,0 +1,25 @@
+yarn add react-native-cli
+yarn add global react-native-cli
+
+react-native init [name]]
+
+react-native run-android
+react-native start
+react-native start --reset-cache
+
+yarn add eslint prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+yarn eslint --init
+==================================================
+cd C:\Android\Sdk\platform-tools
+adb devices
+adb reverse tcp:8081 tcp:8081
+==================================================
+yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
+
+yarn add react-navigation
+yarn add react-native-reanimated react-native-gesture-handler@1.4.0 react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+yarn add react-native-linear-gradient
+yarn add styled-components
+yarn add prop-types
+yarn add react-native-vector-icons
